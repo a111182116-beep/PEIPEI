@@ -353,7 +353,7 @@ export default function App() {
                   >
                     <img 
                       referrerPolicy="no-referrer"
-                      src="/Gemini_Generated_Image_c816snc816snc816.png" 
+                      src="./Gemini_Generated_Image_c816snc816snc816.png" 
                       alt="3D Avatar Result"
                       className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 z-10"
                       onError={(e) => {
