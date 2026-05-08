@@ -164,7 +164,7 @@ export default function App() {
                     referrerPolicy="no-referrer"
                     src="/profile.jpg" 
                     onError={(e) => {
-                      (e.target as HTMLImageElement).src = "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=800&h=800&q=80";
+                      (e.target as HTMLImageElement).src = "profile.jpg";
                     }}
                     alt="鄧欣佩" 
                     className="w-full h-full rounded-full object-cover transition-all duration-500 group-hover:scale-110"
